@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Head from 'next/head';
-
+import Image from 'next/image';
 
 const Page = () => {
   return (
@@ -12,7 +12,7 @@ const Page = () => {
 
       <nav className="p-4 bg-white shadow-md flex justify-between items-center">
         <div className="flex items-center">
-            <img src='/icon.png' alt="Site Icon" className="h-6 w-6 mr-2 drop-shadow-surround"/> {/* adjust size and margin as needed */}
+            <Image src='/icon.png' width={32} height={32} alt="Site Icon" className="h-6 w-6 mr-2 drop-shadow-surround"/> {/* adjust size and margin as needed */}
             <div className="text-gray-500 font-bold">Freewiller</div>
           </div>
         <ul className="flex space-x-4">
@@ -29,11 +29,11 @@ const Page = () => {
           </p>
 
           <p className="mt-4 text-gray-700">
-            Why is having a faith so important? At its core, faith offers a refuge from the swirling tides of doubt, anxiety, and aimlessness that often permeate our lives. It's perfectly okay to embrace a faith, even if we can't prove every aspect of it yet. Every intelligent being needs a faith to define the kind of life they wish to lead. As we embark on our lifelong quest to unravel the mysteries of the world and uncover the true meaning of life, faith and belief become our inexhaustible sources of strength. They provide us with a framework to understand our experiences, guide our decisions, and find solace in the midst of life's uncertainties. In a way, faith is the compass that helps us navigate the complexities of existence, ensuring that we never lose sight of our goals and aspirations.
+            Why is having a faith so important? At its core, faith offers a refuge from the swirling tides of doubt, anxiety, and aimlessness that often permeate our lives. It&apos;s perfectly okay to embrace a faith, even if we can&apos;t prove every aspect of it yet. Every intelligent being needs a faith to define the kind of life they wish to lead. As we embark on our lifelong quest to unravel the mysteries of the world and uncover the true meaning of life, faith and belief become our inexhaustible sources of strength. They provide us with a framework to understand our experiences, guide our decisions, and find solace in the midst of life&apos;s uncertainties. In a way, faith is the compass that helps us navigate the complexities of existence, ensuring that we never lose sight of our goals and aspirations.
           </p>
 
           <p className="mt-4 text-gray-700">
-            In a world brimming with diverse beliefs, from traditional religions to modern philosophies, we understand the struggle of those who yearn for a faith grounded in tangible evidence and rational thought. Freewiller is a haven for such individuals. It's not just a belief system; it's a community that values science, societal norms, and common sense, all anchored by the fundamental principle of free will.
+            In a world brimming with diverse beliefs, from traditional religions to modern philosophies, we understand the struggle of those who yearn for a faith grounded in tangible evidence and rational thought. Freewiller is a haven for such individuals. It&apos;s not just a belief system; it&apos;s a community that values science, societal norms, and common sense, all anchored by the fundamental principle of free will.
           </p>
 
           <p className="mt-4 text-gray-700">
